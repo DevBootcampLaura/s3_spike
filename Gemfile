@@ -43,3 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+#for image uploading
+gem 'paperclip'
+gem 'aws-sdk'
