@@ -47,3 +47,6 @@ end
 #for image uploading
 gem 'paperclip'
 gem 'aws-sdk'
+
+#for heroku
+gem 'rails_12factor', group: :production
