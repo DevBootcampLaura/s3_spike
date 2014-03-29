@@ -1,3 +1,5 @@
 <% @spaces.each do |space| %>
-<%= image_tag space.main_photo.url(:square) %>
-<% end %>
+<%= image_tag space.main_photo.url(:square) %><br>
+<% end %><br>
+
+<%= link_to "HOME", root_path %>
