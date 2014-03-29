@@ -1,6 +1,6 @@
 S3spike::Application.routes.draw do
   root "welcome#index"
-  resources :spaces, only: [:new, :create]
+  resources :spaces, only: [:new, :create, :index]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

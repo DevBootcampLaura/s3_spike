@@ -28,7 +28,7 @@ class SpacesController < ApplicationController
 
     respond_to do |format|
       if @space.save
-        format.html { redirect_to @space, notice: 'Friend was successfully created.' }
+        format.html { redirect_to spaces_path, notice: 'Friend was successfully created.' }
         format.json { render action: 'show', status: :created, location: @space }
       else
         format.html { render action: 'new' }
