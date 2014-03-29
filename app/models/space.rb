@@ -1,5 +1,5 @@
 class Space < ActiveRecord::Base
-  # This method associates the attribute ":avatar" with a file attachment
+  # This method associates the attribute ":main_photo" with a file attachment
   has_attached_file :main_photo, styles: {
     thumb: '100x100>',
     square: '200x200#',
