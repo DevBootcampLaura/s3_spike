@@ -3,9 +3,9 @@ class SpacesController < ApplicationController
 
   # GET /friends
   # GET /friends.json
-  # def index
-  #   @friends = Friend.all
-  # end
+  def index
+    @friends = Friend.all
+  end
 
   # GET /friends/1
   # GET /friends/1.json
